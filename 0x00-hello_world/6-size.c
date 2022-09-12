@@ -1,7 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *  main
- *   return: 0
+ *  main-print the string in the main function
+ *
+ *  Description: using the main function
+ *  this program print sizes.
+ *   Return: 0
  */
 int main(void)
 {
