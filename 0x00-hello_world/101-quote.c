@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main
- * return
+ * main-print the string in the main function
+ *
+ * Description: using the main funcion
+ * this print some words.
+ * Return: 0
  */
 int main(void)
 { 
