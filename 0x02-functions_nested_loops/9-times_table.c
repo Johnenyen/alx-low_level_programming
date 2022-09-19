@@ -5,20 +5,21 @@
  */
 void times_table(void)
 {
-int i, j, k;
-j1 = j / 1000000000;
-j2 = j % 1000000000;
-k1 = k / 1000000000;
-k2 = k % 1000000000;
-for (i = 92; i < 99; ++i)
+int num, mult, prod;
+for(num=0; num<=9; num++)
 {
-printf(", %lu", k1 + (k2 / 1000000000));
-printf("%lu", k2 % 1000000000);
-k1 = k1 + j1;
-j1 = k1 - j1;
-k2 = k2 + j2;
-j2 = k2 - j2;
+_putchar('0');
+for (mult=1; mult<=9; mult++)
+{
+_putchar(',');
+_putchar(' ');
+prod=num*mult;
+if (prod<=9)
+_putchar(' ');
+else
+_putchar((prod / 10)+ '0');
+_putchar((prod % 10)+ '0');
 }
-printf("\n");
-return (0);
+_putchar('\n');
+}
 }
