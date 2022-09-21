@@ -1,11 +1,11 @@
-#include"main.h"
+#include "main.h"
 /**
- * swap_int - swap two strings
- * @a: first int
- * @b: 2nd int
- * Return: nothing
- */
-void swap_int(int *a, int *b);
+*swap_int - swaps two integers' values
+*@a: first integer
+*@b: second integer
+*Return: returns nothing
+*/
+void swap_int(int *a, int *b)
 {
 int tmp = *a;
 *a = *b;
